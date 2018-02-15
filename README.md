@@ -1,2 +1,3 @@
-# spotify_applescripts
+# Spotify AppleScripts
+
 AppleScripts for controlling Spotify
