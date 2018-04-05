@@ -21,8 +21,7 @@ tell application "System Events"
 end tell
 ```
 
-Spotify-Play-Next.scpt
-----------------------
+## Spotify-Play-Next.scpt
 
 Plays next song on Spotify.
 ```AppleScript
@@ -37,8 +36,7 @@ tell application "System Events"
 end tell
 ```
 
-Spotify-Play-Previous.scpt
---------------------------
+## Spotify-Play-Previous.scpt
 
 Plays previous song on Spotify.
 ```AppleScript
