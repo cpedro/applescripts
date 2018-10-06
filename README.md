@@ -1,52 +1,23 @@
-# Spotify AppleScripts
+# AppleScripts
 
-AppleScripts for controlling Spotify.  These can be exported as an Application.
-I used the exported Applications in custom triggers in Quicksilver to be able
-to control Spotify from any application.
+AppleScripts for controlling various actions in applications.  These can be 
+exported as an Application.  I used the exported Applications in global 
+keyboard shortcuts in Keyboard Maestro.
 
-For more information on Quicksilver: https://qsapp.com/
+More information on Keyboard Maestro can be found
+[on their site](https://www.keyboardmaestro.com/main/).
 
-## Spotify-Play-Pause.scpt
+## Scripts
 
-Plays / Pauses Spotify.
-```AppleScript
-tell application "System Events"
-	if application process "Spotify" exists then
-		tell process "Spotify"
-			click menu item 1 of menu 1 of menu bar item "Playback" of menu bar 1
-		end tell
-	else
-		display alert "Spotify is not running."
-	end if
-end tell
-```
-
-## Spotify-Play-Next.scpt
-
-Plays next song on Spotify.
-```AppleScript
-tell application "System Events"
-	if application process "Spotify" exists then
-		tell process "Spotify"
-			click menu item "Next" of menu 1 of menu bar item "Playback" of menu bar 1
-		end tell
-	else
-		display alert "Spotify is not running."
-	end if
-end tell
-```
-
-## Spotify-Play-Previous.scpt
-
-Plays previous song on Spotify.
-```AppleScript
-tell application "System Events"
-	if application process "Spotify" exists then
-		tell process "Spotify"
-			click menu item "Previous" of menu 1 of menu bar item "Playback" of menu bar 1
-		end tell
-	else
-		display alert "Spotify is not running."
-	end if
-end tell
-```
+* **Airmail-New-Message.scpt**
+  * Composes a new message in Airmail.
+  * If Airmail isn't running, it will open it first.
+* **Spotify-Play-Pause.scpt**
+  * Plays / Pauses Spotify.
+  * If Spotify isn't running, it will open it up first.
+* **Spotify-Play-Next.scpt**
+  * Plays next song on Spotify.
+  * If Spotfiy isn't running, it will error out.
+* **Spotify-Play-Previous.scpt**
+  * Plays previous song on Spotify.
+  * If Spotfiy isn't running, it will error out.
