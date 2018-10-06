@@ -1,8 +1,8 @@
 # AppleScripts
 
 AppleScripts for controlling various actions in applications.  These can be 
-exported as an Application.  I used the exported Applications in global 
-keyboard shortcuts in Keyboard Maestro.
+exported as an Application or just run as AppleScripts.  
+I used the scripts in global keyboard shortcuts in Keyboard Maestro.
 
 More information on Keyboard Maestro can be found
 [on their site](https://www.keyboardmaestro.com/main/).
