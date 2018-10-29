@@ -21,6 +21,8 @@ More information on Keyboard Maestro can be found
 * **Spotify-Play-Previous.scpt**
   * Plays previous song on Spotify.
   * If Spotfiy isn't running, it will error out.
-* **Toggle-Mouse-Scrolling.scpt**
-  * Toggles natural scrolling under mouse settings in System Preferences.
+* **Toggle-Natural-Scrolling.scpt**
+  * Toggles natural scrolling settings in System Preferences.
   * Script also displays a notification saying what the current setting is.
+  * It will first try and change it via 'Trackpad' panel.  If that doesn't 
+    exist, it will change the setting under 'Mouse' panel
