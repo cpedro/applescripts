@@ -12,6 +12,9 @@ More information on Keyboard Maestro can be found
 * **Airmail-New-Message.scpt**
   * Composes a new message in Airmail.
   * If Airmail isn't running, it will open it first.
+* **Outlook-New-Message.scpt**
+  * Composes a new message in Microsoft Outlook.
+  * If Outlook isn't running, it will open it first.
 * **Spotify-Play-Pause.scpt**
   * Plays / Pauses Spotify.
   * If Spotify isn't running, it will open it up first.
